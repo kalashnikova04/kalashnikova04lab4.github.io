@@ -1,0 +1,152 @@
+.top-header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    height: 50px;
+    background-color: #FFFFFF;
+}
+
+.Buttons {
+    font-size: normal;
+
+}
+.GS {
+    color: rgb(4, 185, 74); 
+    margin-top: 15px;
+    margin-left: 1055px;
+    border: 1px solid rgb(4, 185, 74); 
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.GS:hover
+{
+    color:inherit;
+}
+.SI {
+    color: rgb(4, 185, 74); 
+    margin-left: 990px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.SI:hover
+{
+    color:inherit;
+}
+
+.M {
+    margin-top: 7px;
+    margin-left: 115px;
+}
+.bottom-header {
+    display: flex;
+    justify-content: flex-start;
+    height: 45px;
+    width: 100%;
+    position: fixed;
+    background-color: #FFFFFF;
+}
+
+.circle{
+    margin-left: 115px;
+}
+
+.WD{
+    margin-top: 7px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+
+.DS{
+    margin-top: 7px;
+    margin-left: 15px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+
+.DESIGN{
+    margin-top: 7px;
+    margin-left: 16px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+
+.BUSINESS{
+    margin-top: 7px;
+    margin-left: 16px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+.WD:hover, .DS:hover, .DESIGN:hover, .BUSINESS:hover{
+    color: inherit;
+}
+
+.p2019{
+    margin-top: 50px;
+}
+
+.title{
+    font-size: 35px;
+    text-align: left;
+    margin-top: 25px;
+    justify-content: center;
+    display: flex;
+}
+
+ h3{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.undertitle{
+    display: flex;
+
+    width: 630px;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+.mybridge{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 7px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.follow{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 85px;
+    border: 1px solid black;
+    padding: 1px 7px;
+    border-radius: 4px;
+}
+
+.read
+{
+    color: gray;
+    margin-top: 2px;
+}
+
+.social_block{
+    display: flex; 
+    margin-left: 350px;
+    margin-top: 20px; 
+}
+
+.text
+{
+    display: flex;
+    justify-content: left;
+    width: 630px;
+    font-size: 24px;
+    margin-left: 400px;
+}
