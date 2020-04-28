@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = 'eng'>
+    <head>
+        <title> Weather </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload class = 'wholebody'>
+        <div class = 'header'>
+            <img class = 'sun' src="солнце.png" height="52px" vspace=1% id='css-ad'>
+            <img class = 'wind' src="ветер.png" height="52px" vspace=1%>
+            <img class = 'clouds' src="частичная-облачность.png" height="52px" vspace=1%>
+            <h1> City Weather </h1>
+            <img class = 'rain' src="дождь.png" height="52px" vspace=1%>
+            <img class = 'snow' src="зима.png" height="52px" vspace=1%>
+            <img class = 'ston' src="град.png" height="52px" vspace=1%>
+        </div>
+        <hr size="2" color="red" width="93%">
+        <div class = 'main'>
+            <div class='rostov'>
+                <img src="Rostov_Oblast.svg.png" height='104'vspace=1% id='rostimg'>
+                <div class = 'rostovtitle'>Rostov on Don, RU
+                    <div id='date'></div>
+                </div>
+                <div class='secondBlock'>
+                    <div class='secondBlockUp'>
+                        <div id="tempRov"></div>
+                        <div class="iconRov" padding-bottom='70%'></div>
+                    </div>
+                    <div class='secondBlockDown'>
+
+                        <div id='feelslike'></div>
+                    </div>
+                </div>
+                <div class='thirdBlock'>
+                    <div id='wind'></div>
+                    <div id='pressure'></div>
+                    <div id='humidity'></div>
+                </div>
+            </div>
+            <hr size="2" color="red" width="65%">
+            <div class='searchBlock'>
+                Посмотрите погоду в других крупных городах:
+            </div>
+            <hr size="2" color="red" width="65%">
+            <div id='tablerow'>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                    <td></td>
+                </tr>
+                
+                
+            </div>
+            <hr size="2" color="red" width="85%">
+            <div id='tablerow1'>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                </tr>   
+            </div>
+
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
